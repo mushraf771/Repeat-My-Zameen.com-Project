@@ -1,0 +1,82 @@
+.heading{
+    font-size:30px;
+font-weight:700;
+padding: 8px 0px;
+text-transform: capitalize;
+line-height: 40px;}
+.history-search-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    border: 1px solid #f3f3;
+    border-radius: 10px;
+    line-height: 1.5em;
+    padding: 6px;
+}
+.search-title{
+    font-size: 20px;
+    text-transform: capitalize;
+    padding-top:4px;
+}
+.search-cat{
+    font-size: 14px;
+    text-transform: capitalize;
+    padding-top:4px;
+    color: #000;
+    padding-left: 4px;
+}
+.cols-history-search a:hover{
+    text-decoration:none;
+    color: #5b91e7;
+
+}
+
+/* popular locations homes  */
+.city-location .heading .heading-city{
+    font-weight: 700 !important;
+    /* font-size: larger; */
+}
+.city-location .links-row .cold .link-heading{
+    font-weight: 600;
+    font-size: large;
+    padding: 5px 0px 5px 0px;
+    }
+.city-location .links-row li a{
+    color: #000;
+    font-size: 13px;
+    }
+.city-location .links-row li a:hover{
+    color:#33a137;
+    transition: all 0.5s;
+    }
+
+    /* popular property city */
+    .mgb{
+        margin-top: 15px;
+    }
+    /* blogs */
+    .blog-card-heading{
+    color: #0792ea;
+    font-weight:700;
+    text-transform:capitalize;
+    font-size:15px;
+    text-align: justify;
+    line-height: 23px;
+}
+.blog-card-text{
+    color:#000;
+    line-height: 20px;
+    font-weight:500;
+    text-transform:capitalize;
+    font-size:12px;
+    text-align:justify;
+    text-overflow: justify;
+}
+
+.sign-in-card{
+background:#fff;
+color: #000;
+border-radius: 6px;
+
+}
