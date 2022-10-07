@@ -1,0 +1,87 @@
+.container-main-page{
+  width: 100%;
+  height: 90vh;
+  background: url(https://zameenblog.s3.amazonaws.com/blog/wp-content/uploads/2019/04/Cover-1440x625-1.jpg)
+    no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 30px 100px;
+  position: relative;
+}
+.container-main-page-content{
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50% ,-50%);
+    width: 60%;
+    padding: 10px;
+background: rgba( 16, 1, 1, 0.4 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 2px );
+-webkit-backdrop-filter: blur( 2px );
+border-radius: 10px;
+}
+.form-field-label{
+  color: white;
+  text-transform: capitalize;
+  font-weight: 600;
+}
+.radio-donate-now{
+    align-items: center;
+    padding-bottom: 5px;
+}
+.donate-now {
+  list-style-type: none;
+  margin: 2px 0 2px 0;
+  padding: 5px;
+  width: 60%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.donate-now li {
+  float: left;
+  width: 100px;
+  height: 50px;
+  position: relative;
+  /* padding: 20px; */
+}
+
+.donate-now label,
+.donate-now input {
+  position: absolute;
+  top: 2;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  text-align: center;
+  padding: 20px;
+  outline: 1px solid #fff;
+  color: #ffff;
+}
+
+.donate-now input[type="radio"] {
+  opacity: 0.01;
+  z-index: 100;
+}
+.donate-now input[type="radio"]:checked+label,.Checked+label{
+  background:#33A137;
+}
+.donate-now label {
+  padding: 5px;
+  cursor: pointer;
+  z-index: 90;
+}
+.donate-now label:hover {
+  background: rgb(64, 57, 57,0.4);
+}
+.btn-find{
+  background: #33A137;
+  color: white;
+  text-transform: capitalize!important;
+  border-radius: 4px;
+}
