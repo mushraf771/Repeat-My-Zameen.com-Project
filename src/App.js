@@ -1,25 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
-
+import MyRoute from './Rutes'
+import { useStyle } from './containers/dashboard/dashboardStyles';
+import { Box } from '@mui/material';
+// import RoutesDashboard from './containers/dashboard/RoutesDashboard';
 function App() {
+  const classes = useStyle()
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Box >
+        <MyRoute />
+        {/* <RoutesDashboard/> */}
+        
+      </Box>
+    </>
   );
 }
-
 export default App;
