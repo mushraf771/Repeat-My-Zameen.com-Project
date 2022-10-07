@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/Repeat-My-Zameen.com-Project/static/css/main.7dc2a1db.css",
+    "main.js": "/Repeat-My-Zameen.com-Project/static/js/main.f44e02ad.js",
+    "static/js/498.8de6edbe.chunk.js": "/Repeat-My-Zameen.com-Project/static/js/498.8de6edbe.chunk.js",
+    "static/js/703.739fb472.chunk.js": "/Repeat-My-Zameen.com-Project/static/js/703.739fb472.chunk.js",
+    "static/js/142.76aa6136.chunk.js": "/Repeat-My-Zameen.com-Project/static/js/142.76aa6136.chunk.js",
+    "static/media/giphy.gif": "/Repeat-My-Zameen.com-Project/static/media/giphy.e07952f7c8c6d8a22df9.gif",
+    "static/media/pic-4.png": "/Repeat-My-Zameen.com-Project/static/media/pic-4.b9d9b2d2102a38f4a5cf.png",
+    "static/media/pic-1.png": "/Repeat-My-Zameen.com-Project/static/media/pic-1.b105fe43e8bf62808d9f.png",
+    "static/media/pic-2.png": "/Repeat-My-Zameen.com-Project/static/media/pic-2.5d5e42bfc8bc3622b556.png",
+    "static/media/pic-3.png": "/Repeat-My-Zameen.com-Project/static/media/pic-3.1ef1ecba9db4ad9c12c8.png",
+    "index.html": "/Repeat-My-Zameen.com-Project/index.html",
+    "main.7dc2a1db.css.map": "/Repeat-My-Zameen.com-Project/static/css/main.7dc2a1db.css.map",
+    "main.f44e02ad.js.map": "/Repeat-My-Zameen.com-Project/static/js/main.f44e02ad.js.map",
+    "498.8de6edbe.chunk.js.map": "/Repeat-My-Zameen.com-Project/static/js/498.8de6edbe.chunk.js.map",
+    "703.739fb472.chunk.js.map": "/Repeat-My-Zameen.com-Project/static/js/703.739fb472.chunk.js.map",
+    "142.76aa6136.chunk.js.map": "/Repeat-My-Zameen.com-Project/static/js/142.76aa6136.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7dc2a1db.css",
+    "static/js/main.f44e02ad.js"
+  ]
+}
